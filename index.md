@@ -57,6 +57,6 @@ for (i = 0; i<linker.length; i++) {
                               document.write( <li> linker[i].getAttribute('id')) <li>);
                              };
 </script>
-  
+<li>test<li>  
 </ul>
 
