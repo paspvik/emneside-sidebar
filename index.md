@@ -2,7 +2,8 @@
 <!-- Gjør endringer under her -->
 
 
-
+<div id="sidebar">
+</div>
 
 
 ## Kursbeskrivelse 
@@ -54,8 +55,7 @@ $x\cdot (1+\frac{r}{n})^{T\cdot n}$
 
 
 
-<div id="sidebar">
-</div>
+
 
 <script>  
   
