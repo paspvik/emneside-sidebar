@@ -1,9 +1,6 @@
 {% include top-box.html %} <!-- Kode for å inkludere boksen på toppen av siden. Se _config.yml for å gjøre endringer. -->
+{% include sidebar.html %} <!-- Kode for å inkludere navigasjon -->
 <!-- Gjør endringer under her -->
-
-
-<div id="sidebar">
-</div>
 
 
 ## Kursbeskrivelse 
@@ -49,6 +46,7 @@ Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
 $x\cdot (1+\frac{r}{n})^{T\cdot n}$
 
 
+<!-- Gjør endringer over her -->
 {% include sidebar-script.html %}
 
 
