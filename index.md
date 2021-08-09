@@ -52,6 +52,9 @@ $x\cdot (1+\frac{r}{n})^{T\cdot n}$
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 
+
+
+
 <script>  
 h2_tags = document.getElementsByTagName('h2');
 
@@ -62,19 +65,17 @@ var lenker = new Array();
   };
                                
 console.log(lenker);
-                              
-var cList = $('ul.mylist')
-$.each(lenker, function(i)
-{
-    var li = $('<li/>')
-        .addClass('ui-menu-item')
-        .attr('role', 'menuitem')
-        .appendTo(cList);
-    var aaa = $('<a/>')
-        .addClass('ui-all')
-        .text(lenker[i])
-        .appendTo(li);
-});                                
+       
+                                
+var list = document.createElement('ul');
+
+var fragment = document.createDocumentFragment();
+
+lenker.forEach(function (lenke) {
+	var li = document.createElement('li');
+	li.textContent = lenke;
+	fragment.appendChild(li);
+});                       
                              
 </script>
 
