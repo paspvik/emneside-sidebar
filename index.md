@@ -6,6 +6,7 @@
     let linker = [];
     linker = document.getElementsByTagName('h2');
     console.log(linker);
+    console.log(linker.item(1));
   </script>
 
 <ul>
