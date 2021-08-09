@@ -5,12 +5,13 @@
 <ul>
   <script>
     linker = document.getElementsByTagName('h2');
-    console.log(linker[0]);
-    console.log(linker[1]);
-    console.log(linker[2]);
-    <p>(linker[2]</p> 
-    
   </script>
+  
+   <script>
+    console.log(linker);
+    console.log(linker[1]);
+  </script>
+  
 </ul>
 
 
