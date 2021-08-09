@@ -7,7 +7,7 @@
     linker = document.getElementsByTagName('h2');
     console.log(linker);
     
-    console.log(linker[0].getAttribute('id')) 
+    console.log(linker[0].getAttribute('id'));
     
     
   </script>
