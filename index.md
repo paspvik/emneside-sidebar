@@ -8,6 +8,7 @@
     console.log(linker[0]);
     console.log(linker[1]);
     console.log(linker[2]);
+    <p>(linker[2]</p> 
     
   </script>
 </ul>
