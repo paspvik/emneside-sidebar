@@ -2,8 +2,7 @@
 <!-- Gjør endringer under her -->
 
 
-<ul>
-  <script>
+<script>
     linker = document.getElementsByTagName('h2');
   </script>
   
@@ -11,6 +10,10 @@
     console.log(linker);
     console.log(linker[1]);
   </script>
+
+
+<ul>
+  
   
 </ul>
 
