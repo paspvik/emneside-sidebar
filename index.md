@@ -6,10 +6,8 @@
   <script>
     linker = document.getElementsByTagName('h2');
     console.log(linker);
-    console.log(linker[1]);
- 
-    
-    
+    for (i = 0; i<linker.length; i++) { console.log(linker[i].getAttribute('id')) };
+
   </script>
 </ul>
 
