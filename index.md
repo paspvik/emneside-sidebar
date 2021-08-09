@@ -5,9 +5,10 @@
 <ul>
   <script>
     linker = document.getElementsByTagName('h2');
-    console.log(linker);
-    for (i = 0; i<linker.length; i++) { console.log(linker[i].getAttribute('id')) };
-
+    console.log(linker[0]);
+    console.log(linker[1]);
+    console.log(linker[2]);
+    
   </script>
 </ul>
 
