@@ -57,19 +57,23 @@ $x\cdot (1+\frac{r}{n})^{T\cdot n}$
 <ul id="myList"></ul>
 
 <script>  
+  
+  
 h2_tags = document.getElementsByTagName('h2');
 
-var lenker = new Array();
+var lenke_titler = new Array();
 
   for (i = 0; i<h2_tags.length; i++) {
-       lenker.push(h2_tags[i].getAttribute('id'));
+       lenke_titler.push(h2_tags[i].getAttribute('id'));
   };
-                               
-console.log(lenker);
+
+                                
+                                
+console.log(lenke_titler);
        
   let list = document.getElementById("myList");
   
-      lenker.forEach((item) => {
+      lenke_titler.forEach((item) => {
         let li = document.createElement("li");
   li.innerText = item ;
         list.appendChild(li);
