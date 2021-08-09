@@ -62,14 +62,19 @@ $x\cdot (1+\frac{r}{n})^{T\cdot n}$
 h2_tags = document.getElementsByTagName('h2');
 
 var lenke_titler = new Array();
+var lenke_lenker = new Array();
 
   for (i = 0; i<h2_tags.length; i++) {
        lenke_titler.push(h2_tags[i].getAttribute('id'));
   };
 
-                                
-                                
+   for (i = 0; i<h2_tags.length; i++) {
+       lenke_lenker.push("#" + lenke_titler[i].getAttribute('id'));
+  };                               
+
+                                                              
 console.log(lenke_titler);
+console.log(lenke_lenker);  
        
   let list = document.getElementById("myList");
   
