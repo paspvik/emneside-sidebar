@@ -76,14 +76,9 @@ var lenke_lenker = new Array();
 console.log(lenke_titler);
 console.log(lenke_lenker);  
        
-  let list = document.getElementById("myList");
-  
-      lenke_titler.forEach((item) => {
-        let li = document.createElement("li");
-  li.innerText = item ;
-        list.appendChild(li);
-      });                                
-
+lenke_lenker.forEach((x,i) => {
+  sidebar.insertAdjacentHTML("beforeend",`<a href="${x}"><div>${lenke_titler[i]}</div></a>`)
+})
                              
 </script>
 
