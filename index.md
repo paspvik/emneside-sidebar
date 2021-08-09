@@ -3,6 +3,7 @@
 
 
 <script>
+    let likner = [];
     linker = document.getElementsByTagName('h2');
     console.log(linker);
   </script>
