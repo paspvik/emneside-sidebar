@@ -4,7 +4,12 @@
 
 <ul>
   <script>
-    console.log("hei");
+    linker = document.getElementsByTagName('h2');
+
+for (i = 0; i<linker.length; i++) {
+         console.log(linker[i].getAttribute('id')) 
+};
+
   </script>
 </ul>
 
