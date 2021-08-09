@@ -62,7 +62,19 @@ var lenker = new Array();
   };
                                
 console.log(lenker);
-                             
+                              
+var cList = $('ul.mylist')
+$.each(lenker, function(i)
+{
+    var li = $('<li/>')
+        .addClass('ui-menu-item')
+        .attr('role', 'menuitem')
+        .appendTo(cList);
+    var aaa = $('<a/>')
+        .addClass('ui-all')
+        .text(lenker[i])
+        .appendTo(li);
+});                                
                              
 </script>
 
