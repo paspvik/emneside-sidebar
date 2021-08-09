@@ -69,7 +69,7 @@ var lenke_lenker = new Array();
   };
 
    for (i = 0; i<h2_tags.length; i++) {
-       lenke_lenker.push("#" + lenke_titler[i].getAttribute('id'));
+       lenke_lenker.push("#" + lenke_titler[i]);
   };                               
 
                                                               
