@@ -49,40 +49,7 @@ Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
 $x\cdot (1+\frac{r}{n})^{T\cdot n}$
 
 
-
-
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-
-
-
-
-
-<script>  
-  
-  
-h2_tags = document.getElementsByTagName('h2');
-
-var lenke_titler = new Array();
-var lenke_lenker = new Array();
-
-  for (i = 0; i<h2_tags.length; i++) {
-       lenke_titler.push(h2_tags[i].getAttribute('id'));
-  };
-
-   for (i = 0; i<h2_tags.length; i++) {
-       lenke_lenker.push("#" + lenke_titler[i]);
-  };                               
-
-                                                              
-console.log(lenke_titler);
-console.log(lenke_lenker);  
-       
-lenke_lenker.forEach((x,i) => {
-  sidebar.insertAdjacentHTML("beforeend",`<a href="${x}"><div>${lenke_titler[i]}</div></a>`)
-})
-                             
-</script>
-
+{% include sidebar-script.html %}
 
 
 
