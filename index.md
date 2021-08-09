@@ -57,8 +57,8 @@ h2_tags = document.getElementsByTagName('h2');
 
 var lenker = new Array();
 
-  for (i = 0; i<linker.length; i++) {
-       lenker.push(linker[i].getAttribute('id'));
+  for (i = 0; i<h2_tags.length; i++) {
+       lenker.push(h2_tags[i].getAttribute('id'));
   };
                                
 console.log(lenker);
