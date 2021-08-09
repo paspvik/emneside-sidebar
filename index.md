@@ -54,6 +54,7 @@ $x\cdot (1+\frac{r}{n})^{T\cdot n}$
 
 
 
+<ul id="myList"></ul>
 
 <script>  
 h2_tags = document.getElementsByTagName('h2');
@@ -66,19 +67,16 @@ var lenker = new Array();
                                
 console.log(lenker);
        
-                                
-var list = document.createElement('ul');
+  let list = document.getElementById("myList");
+  
+      lenker.forEach((item) => {
+        let li = document.createElement("li");
+        li.innerText = item;
+        list.appendChild(li);
+      });                                
 
-var fragment = document.createDocumentFragment();
-
-lenker.forEach(function (lenke) {
-	var li = document.createElement('li');
-	li.textContent = lenke;
-	fragment.appendChild(li);
-});                       
                              
 </script>
-
 
 
 
