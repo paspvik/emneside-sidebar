@@ -50,12 +50,13 @@ $x\cdot (1+\frac{r}{n})^{T\cdot n}$
 
 
 <ul>
+<script>  
 linker = document.getElementsByTagName('h2');
 
 for (i = 0; i<linker.length; i++) { 
                                <li> linker[i].getAttribute('id')) <li>
                              };
-
+</script>
   
 </ul>
 
