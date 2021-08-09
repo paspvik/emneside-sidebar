@@ -71,7 +71,7 @@ console.log(lenker);
   
       lenker.forEach((item) => {
         let li = document.createElement("li");
-        li.innerText = item;
+  li.innerText = "<a>" + item + "</a>";
         list.appendChild(li);
       });                                
 
