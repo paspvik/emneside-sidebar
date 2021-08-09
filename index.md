@@ -54,7 +54,8 @@ $x\cdot (1+\frac{r}{n})^{T\cdot n}$
 
 
 
-<ul id="myList"></ul>
+<div id="sidebar">
+</div>
 
 <script>  
   
