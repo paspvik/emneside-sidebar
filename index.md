@@ -48,15 +48,14 @@ Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
 $x\cdot (1+\frac{r}{n})^{T\cdot n}$
 
 
-<script>
-    var linker = document.getElementsByTagName('h2');
-    console.log(linker);
-    console.log(linker.item(1));
-    console.log(linker[0]);
-  </script>
 
 <ul>
-  
+linker = document.getElementsByTagName('h2');
+
+for (i = 0; i<linker.length; i++) { 
+                               <li> linker[i].getAttribute('id')) <li>
+                             };
+
   
 </ul>
 
