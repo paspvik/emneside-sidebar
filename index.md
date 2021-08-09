@@ -2,17 +2,6 @@
 <!-- Gjør endringer under her -->
 
 
-<script>
-    var linker = document.getElementsByTagName('h2');
-    console.log(linker);
-    console.log(linker.item(1));
-    console.log(linker[0]);
-  </script>
-
-<ul>
-  
-  
-</ul>
 
 
 
@@ -57,3 +46,17 @@ Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
 ## Equations
 
 $x\cdot (1+\frac{r}{n})^{T\cdot n}$
+
+
+<script>
+    var linker = document.getElementsByTagName('h2');
+    console.log(linker);
+    console.log(linker.item(1));
+    console.log(linker[0]);
+  </script>
+
+<ul>
+  
+  
+</ul>
+
