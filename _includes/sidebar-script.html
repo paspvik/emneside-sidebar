@@ -13,10 +13,11 @@ var lenke_lenker = new Array();
        lenke_titler.push(h2_tags[i].getAttribute('id'));   /* Henter ut h2-tag */
   };
  
-  
-  for (let lenke of lenke_titler) {
-    lenke = lenke.charAt(0).toUpperCase() + lenke.substr(1); /* Uppercase første bokstav */
-}
+
+  for (i = 0; i<lenke_titler.length; i++) {
+       lenke_titler.push(lenke_titler[i].charAt(0).toUpperCase() + lenke_titler[i].substr(1);   /* Henter ut h2-tag */
+  };
+
     console.log(lenke_titler);
 
 
