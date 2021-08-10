@@ -14,13 +14,6 @@ var lenke_lenker = new Array();
   };
  
 
-  for (i = 0; i<lenke_titler.length; i++) {
-       lenke_titler.push(lenke_titler[i].charAt(0).toUpperCase() + lenke_titler[i].substr(1));   /* Henter ut h2-tag */
-  };
-
-    console.log(lenke_titler);
-
-
    for (i = 0; i<h2_tags.length; i++) {
        lenke_lenker.push("#" + lenke_titler[i]);   /* Lager lenker */
   };                               
