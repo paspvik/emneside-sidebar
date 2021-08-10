@@ -4,21 +4,26 @@
 <script>  
 /* Henter ut/lager linker av h2 tags*/ 
   
-h2_tags = document.getElementsByTagName('h2');
+h2_tags = document.getElementsByTagName('h2');  /* Henter ut h2-tag */
 
 var lenke_titler = new Array();
 var lenke_lenker = new Array();
 
   for (i = 0; i<h2_tags.length; i++) {
-       lenke_titler.push(h2_tags[i].getAttribute('id'));
+       lenke_titler.push(h2_tags[i].getAttribute('id'));   /* Henter ut h2-tag */
   };
+  
+  for (let lenke of lenke_titler) {
+    lenke = lenke.charAt(0).toUpperCase() + day.substr(1); /* Uppercase første bokstav */
+    console.log(lenke);
+}
 
    for (i = 0; i<h2_tags.length; i++) {
-       lenke_lenker.push("#" + lenke_titler[i]);
+       lenke_lenker.push("#" + lenke_titler[i]);   /* Lager lenker */
   };                               
        
 lenke_lenker.forEach((x,i) => {
-  sidebar.insertAdjacentHTML("beforeend",`<a href="${x}"><div>${lenke_titler[i]}</div></a>`)
+  sidebar.insertAdjacentHTML("beforeend",`<a href="${x}"><div>${lenke_titler[i]}</div></a>`)  /* Javascript -> HTML */
 })
                              
 </script>
