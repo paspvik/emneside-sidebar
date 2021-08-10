@@ -12,11 +12,9 @@ var lenke_lenker = new Array();
   for (i = 0; i<h2_tags.length; i++) {
        lenke_titler.push(h2_tags[i].getAttribute('id'));   /* Henter ut h2-tag */
   };
-  
-  for (let lenke of lenke_titler) {
-    lenke = lenke.charAt(0).toUpperCase() + day.substr(1); /* Uppercase første bokstav */
-    console.log(lenke);
-}
+ 
+
+
 
    for (i = 0; i<h2_tags.length; i++) {
        lenke_lenker.push("#" + lenke_titler[i]);   /* Lager lenker */
