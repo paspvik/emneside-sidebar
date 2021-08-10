@@ -13,8 +13,9 @@ var lenke_lenker = new Array();
        lenke_titler.push(h2_tags[i].getAttribute('id'));   /* Henter ut h2-tag */
   };
  
-  for (let lenke of lenke_titler) {
-    lenke = lenke.charAt(0).toUpperCase() + day.substr(1); /* Uppercase første bokstav */
+  for (i = 0; i<lenke.titler.length; i++) {
+    lenke_titler.push(lenke.titler.charAt(0).toUpperCase() + day.substr(1)); /* Uppercase første bokstav */
+    console.log(lenke.titler)
 }
 
    for (i = 0; i<h2_tags.length; i++) {
